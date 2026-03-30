@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function ProductCard({ product }) {
   return (
     <div className="border p-4 rounded-xl shadow-sm hover:shadow-lg transition">
