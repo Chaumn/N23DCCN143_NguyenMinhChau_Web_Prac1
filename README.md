@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product Listing Page - NextJS & Tailwind
 
-## Getting Started
+##  Thông tin sinh viên
 
-First, run the development server:
+* Họ tên: Nguyễn Minh Châu
+* MSSV: N23DCCN143
+
+---
+
+## Mô tả bài làm
+
+Bài thực hành xây dựng website hiển thị danh sách sản phẩm sử dụng **NextJS (App Router)** và **Tailwind CSS**.
+
+Ứng dụng lấy dữ liệu từ API bên ngoài (FakeStoreAPI) và hiển thị dưới dạng giao diện responsive.
+
+---
+
+##  Chức năng chính
+
+### 1. Trang danh sách sản phẩm
+
+* Hiển thị danh sách sản phẩm từ API
+* Sử dụng Grid Layout responsive (1–4 cột tùy thiết bị)
+* Mỗi sản phẩm gồm:
+
+  * Hình ảnh
+  * Tên
+  * Giá
+  * Danh mục
+
+---
+
+### 2. Navbar
+
+* Logo MyStore
+* Menu điều hướng
+* Nút Cart
+
+---
+
+### 3. Trang chi tiết sản phẩm
+
+* Đường dẫn động: `/product/[id]`
+* Hiển thị:
+
+  * Ảnh sản phẩm (lớn)
+  * Tên
+  * Mô tả (đầy đủ)
+  * Giá
+  * Nút Add to Cart
+
+---
+
+##  Responsive
+
+* Mobile: 1 cột
+* Tablet: 2 cột
+* Laptop: 3 cột
+* Desktop: 4 cột
+
+---
+
+##  Công nghệ sử dụng
+
+* NextJS (App Router)
+* Tailwind CSS
+* Fetch API
+* Git & GitHub
+
+---
+
+##  Hướng dẫn chạy project
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Mở trình duyệt tại:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+##  Ghi chú
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Dữ liệu sử dụng từ: https://fakestoreapi.com/products
+* Project được xây dựng theo yêu cầu bài thực hành môn Lập trình Web
