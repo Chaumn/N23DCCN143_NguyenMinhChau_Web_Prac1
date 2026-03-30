@@ -6,7 +6,7 @@ async function getProduct(id) {
 }
 
 export default async function ProductDetail({ params }) {
-  const { id } = await params; // Fix lại (quan trọng) để lấy đúng id từ params
+  const { id } = await params; 
 
   const product = await getProduct(id);
 
